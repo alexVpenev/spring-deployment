@@ -15,7 +15,7 @@ jobs:
     steps:
     
     - name: Compile Prj
-      run: ./mvnw clean install     
+      run: ./mvnw clean package     
 
     - uses: actions/checkout@v3
     - name: Build the Docker image
